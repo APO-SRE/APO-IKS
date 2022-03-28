@@ -46,3 +46,9 @@ variable "cluster_name" {
   description = "Name of IKS Cluster."
   type = string
 }
+
+variable "action_type" {
+  description = "Cluster action - unassign, deploy, etc"
+  type = string
+  default = "Unassign"
+}
